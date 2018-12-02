@@ -21,12 +21,12 @@ Run following 3 commands
     
 ```
 
-Decode example
+Include in your project
 ```
     use Dataencryption\Repositories\DataFactory as DataFactory; //use this namespace
 
 	require_once "app/start.php"; // Require our start file
-	$obj = DataFactory::MyEncryption();  //create ibject if DataFactory class
+	$obj = DataFactory::MyEncryption();  //create object if DataFactory class
 	
 	$obj->my_encrypt("Enter your text here"); //just put your text here to encrypt
 ```
