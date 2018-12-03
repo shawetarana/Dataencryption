@@ -1,4 +1,4 @@
-# encode-decode
+# Dataencryption
 
 This small library provides a simple and consistent way to encrypt the data in php using OpenSSL.
 
